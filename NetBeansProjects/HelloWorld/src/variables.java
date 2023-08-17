@@ -16,9 +16,11 @@ public class variables {
         
         if (opcion == 1){
             System.out.println("ELIGIÓ LA OPCIÓN DE SUMAR");
+        }else if (opcion <2){
+            System.out.println("ESA OPCIÓN NO ESTA DISPONIBLE");   
         }
         
-         
+              
      
     }
     
