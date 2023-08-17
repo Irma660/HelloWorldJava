@@ -1,6 +1,6 @@
 
 package helloworld;
-javautil.
+import java.util.Scanner; 
 
 public class HelloWorld {
 
