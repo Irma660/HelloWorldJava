@@ -1,7 +1,6 @@
 import java.util.Scanner; 
 public class variables {
 
-    
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         int opcion;
@@ -12,10 +11,9 @@ public class variables {
         System.out.println("==========ELIGE UNA OPCIÓN===========");
         System.out.println("1. SUMAR");
         System.out.println("2. RESTAR");
-        System.out.println("3. SALIR");
         opcion = sc.nextInt();
         
-        
+
         System.out.println("INGRESA EL PRIMER NÚMERO");
         x = sc.nextInt();
         System.out.println("INGRESA EL SEGUNDO NÚMERO");
@@ -33,9 +31,6 @@ public class variables {
             default:
                 System.out.println("NÚMERO INVÁLIDO");            
         }
-        
-              
-     
     }
     
 }
