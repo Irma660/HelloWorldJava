@@ -24,6 +24,16 @@ public class variables {
         System.out.println("INGRESA EL SEGUNDO NÚMERO");
         y = sc.nextInt();
         
+        switch (opcion){
+            case 1: 
+                resultado = x+y;
+                System.out.println("La respuesta es = "+resultado);
+            case 2: 
+                resultado = x-y;
+                System.out.println("La respuesta es = "+resultado);
+                        
+        }
+        
               
      
     }
