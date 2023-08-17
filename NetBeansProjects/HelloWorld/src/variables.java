@@ -28,9 +28,13 @@ public class variables {
             case 1: 
                 resultado = x+y;
                 System.out.println("La respuesta es = "+resultado);
+                break;
             case 2: 
                 resultado = x-y;
                 System.out.println("La respuesta es = "+resultado);
+                break;
+            default:
+                System.out.println("NÚMERO INVÁLIDO");
                         
         }
         
